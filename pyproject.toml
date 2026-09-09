@@ -1,0 +1,17 @@
+[project]
+name = "mslearn-ai-vision"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Eiichiro Iriguchi", email = "eiichiro.iriguchi@avanade.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+mslearn-ai-vision = "mslearn_ai_vision:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
